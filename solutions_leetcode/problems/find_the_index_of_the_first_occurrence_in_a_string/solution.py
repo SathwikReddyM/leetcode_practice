@@ -6,10 +6,11 @@ class Solution:
             else:
                 return -1
         else:"""
-        n = len(needle)
+        """n = len(needle)
         for i in range(len(haystack)-n+1):
             print(haystack[i:i+n])
             if haystack[i:i+n] == needle:
                 return i
                 break
-        return -1
+        return -1"""
+        return haystack.find(needle)
